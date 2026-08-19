@@ -11,4 +11,8 @@ string *5 it print string 5 times
 10 if/else use as nested also 
 11 print statement give two value first a string then output like this print('s',s)
 12 if we pass anyting inside a function its an argument 
-13 
+13 break it break the loop continue it skip the line and continue to next line
+14for loop while loop range function range(start,end,interval)
+15imports import different library 
+
+

@@ -1,3 +1,28 @@
+def calculation(first_number,operator,second_number):
+
+    if operator=='*':
+        return first_number*second_number
+       
+        
+    
+    elif operator=='-':
+        subtraction=first_number-second_number
+        return subtraction
+    
+    elif operator=='/':
+        if(second_number==0):
+            return None
+        else:
+            return first_number/second_number
+  
+    elif operator=='+':
+        return first_number+second_number
+
+    else:
+        return None
+    
+
+
 i=''
 while(i!='q'):
     print("Enter your first number")
@@ -11,32 +36,8 @@ while(i!='q'):
     second_number=input()
     second_number=float(second_number)
 
-
-    if operator=='*':
-        multiply=first_number*second_number
-        print('multiply',multiply)
-        
-    
-    elif operator=='-':
-        subtraction=first_number-second_number
-        print('subtraction',subtraction)
-    
-    elif operator=='/':
-        if(second_number==0):
-            print('cant divisible by zer0')
-        else:
-            division=first_number/second_number
-            print('division',division)
-    
-    elif operator=='+':
-        addition=first_number+second_number
-        print('addition',addition)
-
+    result=calculation(first_number,operator,second_number)
+    if result is None:print("Invalid")
     else:
-        print('invalid operatior')
-    print("use q for quit press any button for start again")
-    
+        print(result)
     i=input()
-
-
-
