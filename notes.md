@@ -14,5 +14,13 @@ string *5 it print string 5 times
 13 break it break the loop continue it skip the line and continue to next line
 14for loop while loop range function range(start,end,interval)
 15imports import different library 
-
-
+16 function do whole task in one function it not required many parameters it need only one
+17 reference dictionary and list takes refrecne if we update them if change one item then it also change in other list
+18 list have so many function like sort,min,max,sum,index,len we can change list as it is mutable remove,delete ,slicing
+19 we can sort alphate also using sort spam.sort(key=str.lower)
+20 never overwritten function
+21 convert list in tuple and tuple into list
+tuple(['cat', 'dog', 5])
+list(('cat', 'dog', 5))
+list []
+tuple ()
